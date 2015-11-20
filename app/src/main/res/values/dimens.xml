@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="symbol_height">50dp</dimen>
+    <dimen name="symbol_width">50dp</dimen>
+    <dimen name="symbol_text_size">40sp</dimen>
+    <dimen name="row_height">80dp</dimen>
+    <dimen name="text_size">60sp</dimen>
+    <dimen name="divider_width">5dp</dimen>
+    <dimen name="divider_height">65dp</dimen>
+    <dimen name="button_height">42sp</dimen>
+    <dimen name="button_width">42sp</dimen>
+    <dimen name="checkBoxText">12sp</dimen>
+</resources>

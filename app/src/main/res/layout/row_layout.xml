@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/row_height"
+    android:background="@drawable/border"
+    android:id="@+id/tableRow">
+
+    <TextView
+        android:layout_width="@dimen/symbol_width"
+        android:layout_height="@dimen/symbol_height"
+        android:id="@+id/symbol"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/symbol_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="@dimen/divider_width"
+        android:layout_height="@dimen/divider_height"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/black"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/symbol_representation"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="15dp"
+        android:gravity="center|left"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/speakerIcon"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/speaker" />
+</TableRow>

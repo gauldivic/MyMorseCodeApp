@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalRoughDraft</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputLabel">Input:</string>
+    <string name="Use_flash">Use Flash</string>
+    <string name="input_button">Go!</string>
+    <string name="Use_audio">Use Audio</string>
+    <string name="output_label">Output:</string>
+    <string name="manual_text">This is a manual visual morse code generator that uses the camera flash on a device.
+        Press the button as you would on an old-school telegraph machine. This mode only works on devices that have
+    a front facing camera flash.</string>
+    <string name="shareText">Share</string>
+
+</resources>
